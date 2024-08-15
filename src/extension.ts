@@ -16,7 +16,7 @@ export function activate(context: vscode.ExtensionContext) {
 				const newText = text.replace(
 					regex,
 					(match, altText, imageUrl) => {
-						return `<div style="display: inline-block; resize: both; overflow: hidden; line-height: 0;">
+						return `<div style="display: inline-block; resize: both; overflow: hidden; line-height: 0; width:200px;">
     <img src="${imageUrl}" alt="${altText}" style="width: 100%; height: 100%; object-fit: contain;">
 </div>`;
 					}
