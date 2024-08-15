@@ -14,3 +14,18 @@
 使用
 
 -   在任意 markdown 文件中，_ctrl+shift+p_，输入 _Replace Markdown Images_ 即可替换
+
+<hr>
+
+VSCode Plugin for Replacing Markdown Image Content with Resizable Drag-and-Drop Nodes
+
+Installation
+
+-   Clone this repository.
+-   In VSCode, press _Ctrl+Shift+P_, and type _Extensions: Open Extensions Folder_.
+-   Copy the entire weekly-scripted folder from this repository into the opened folder.
+-   Restart VSCode.
+
+Usage
+
+-   In any Markdown file, press _Ctrl+Shift+P_, and type _Replace Markdown Images_ to perform the replacement.
