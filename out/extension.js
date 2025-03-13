@@ -36,7 +36,7 @@ function activate(context) {
             const regex = /!\[(.*?)\]\((.*?)\)/g;
             // 使用替换后的 HTML div 节点
             const newText = text.replace(regex, (match, altText, imageUrl) => {
-                return `<div style="display: inline-block; resize: both; overflow: hidden; line-height: 0;">
+                return `<div style="display: inline-block; resize: both; overflow: hidden; line-height: 0; width:100px;">
     <img src="${imageUrl}" alt="${altText}" style="width: 100%; height: 100%; object-fit: contain;">
 </div>`;
             });
